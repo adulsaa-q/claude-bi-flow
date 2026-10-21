@@ -1,0 +1,5 @@
+# One plugin per line: name@marketplace. Installed by install.ps1 (claude plugin install).
+# Marketplace claude-plugins-official is built in to Claude Code.
+commit-commands@claude-plugins-official
+code-review@claude-plugins-official
+remember@claude-plugins-official

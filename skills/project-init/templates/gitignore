@@ -1,0 +1,28 @@
+# --- credentials (must exist BEFORE the first .env is created) ---
+.env
+
+# --- Power BI: binary/cache never in git; the .pbip (TMDL + PBIR JSON) is the source ---
+*.pbix
+*.pbit
+.pbi/
+**/.pbi/
+
+# --- logs / archives / OS ---
+*.log
+*.zip
+desktop.ini
+Thumbs.db
+~$*
+
+# --- session-local AI state (remember plugin, handoff archive) ---
+.remember/
+.handoff-archive/
+
+# --- python ---
+__pycache__/
+*.pyc
+.venv/
+.mcp-venv/
+.pytest_cache/
+
+# --- project-specific build intermediates go below this line ---

@@ -1,0 +1,4 @@
+#!/bin/sh
+# Check staged blobs including rename destinations; fail if Python is absent.
+root=$(git rev-parse --show-toplevel) || exit 1
+exec python "$root/scripts/git-hooks/check_staged.py"
